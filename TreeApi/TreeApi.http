@@ -1,0 +1,6 @@
+@TreeApi_HostAddress = http://localhost:5207
+
+GET {{TreeApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
