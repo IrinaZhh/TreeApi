@@ -5,16 +5,15 @@ The application uses MS SQL Server with Entity Framework Core (Code-First approa
 
 1. Run the following SQL script in SQL Server Management Studio (SSMS):
 
-//SQL
 CREATE DATABASE TreeApiDB;
 GO
 
 2. Make sure your appsettings.json contains:
-//JSON
+3. 
 ConnectionStrings": {
   "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=TreeApiDB;Trusted_Connection=True;TrustServerCertificate=True;"
 }
 
 3.After configuring the database, apply migrations using:
-//run
+
 dotnet ef database update
