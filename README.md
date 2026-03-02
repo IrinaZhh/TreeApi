@@ -9,7 +9,7 @@ CREATE DATABASE TreeApiDB;
 GO
 
 2. Make sure your appsettings.json contains:
-3. 
+
 ConnectionStrings": {
   "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=TreeApiDB;Trusted_Connection=True;TrustServerCertificate=True;"
 }
